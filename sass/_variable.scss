@@ -1,0 +1,20 @@
+$bg_header:#f85b1a;
+$bg_container:#ffecff;
+$bg_cards: #f85b1a;
+$bg_footer: #e59982;
+$optional: #072083;
+
+@mixin boton(){
+
+    
+    button{
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+      
+    button:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+}
